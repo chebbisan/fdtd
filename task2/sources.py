@@ -122,7 +122,7 @@ class GaussianDiff(SourceGauss):
         return -2 * self.magnitude * e * np.exp(-(e ** 2))
 
 
-class с(Source1D):
+class GaussianModPlaneWave(Source1D):
     '''
     Источник, создающий модулированный гауссов импульс
     '''
